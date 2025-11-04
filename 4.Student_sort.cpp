@@ -28,10 +28,10 @@ using namespace std;
   {
     vector<Student> students;
 
-    students.push_back(Student("Ravi", 85));
-    students.push_back(Student("Anita", 92));
-    students.push_back(Student("Kunal", 78));
-    students.push_back(Student("Deepa", 88));
+    students.push_back(Student("aman", 85));
+    students.push_back(Student("ram", 92));
+    students.push_back(Student("pranav", 78));
+    students.push_back(Student("pratik", 88));
 
     cout << "Original List:\n";
     for (const auto &s : students) s.display();
@@ -45,4 +45,5 @@ using namespace std;
     for (const auto &s : students) s.display();
     
     return 0;
+
  }
